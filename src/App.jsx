@@ -6,8 +6,9 @@ import About from './components/About'
 import Intro from './components/Intro'
 import Skills from './components/Skills'
 import Resume from './components/Resume'
-import Works from './components/Works.jsx'
-import Blog from './components/Blog.jsx'
+import Works from './components/Works'
+import Blog from './components/Blog'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Resume />
       <Works />
       <Blog />
+      <Contact />
 
 
 
