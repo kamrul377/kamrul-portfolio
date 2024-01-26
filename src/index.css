@@ -10,6 +10,7 @@
 body{ 
     font-family: 'Titillium Web', sans-serif;
     box-sizing: border-box;
+    overflow-y: hidden;
 
 }
 .btn{ 
