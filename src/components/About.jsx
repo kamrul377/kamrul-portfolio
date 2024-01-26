@@ -11,7 +11,7 @@ const About = () => {
 
 
 
-            <div className="about flex">
+            <div className="about md:flex">
                 <div className="images basis-1/2 p-4">
                     <img src={thinking} alt="" className='border-8 rounded shadow border-secondary' />
                 </div>

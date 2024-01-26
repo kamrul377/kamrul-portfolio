@@ -8,7 +8,7 @@ const percentage = 66
 
 const Circle = ({name,percentage}) => {
     return (
-        <div className='bg-[#202638] ba text-center py-6 px-6 rounded border border-slate-600 inline-block '>
+        <div className='bg-[#202638] ba text-center py-6 px-6 rounded border border-slate-600 inline-block w-full md:w-[46%] lg:w-auto md:my-4 my-2'>
             <div className='h-40 w-40 bg-transparent mx-auto'>
                 <CircularProgressbar value={percentage}
                     text={`${percentage}%`}

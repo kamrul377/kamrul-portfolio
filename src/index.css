@@ -9,6 +9,7 @@
 }
 body{ 
     font-family: 'Titillium Web', sans-serif;
+    overflow: auto;
 }
 .btn{ 
   position: relative; 
