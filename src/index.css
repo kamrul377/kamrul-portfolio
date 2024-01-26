@@ -5,12 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
   
 }
 body{ 
     font-family: 'Titillium Web', sans-serif;
     box-sizing: border-box;
-    overflow-y: hidden;
 
 }
 .btn{ 

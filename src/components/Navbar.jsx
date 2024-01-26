@@ -29,7 +29,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className={`bg-primary flex px-10 justify-between h-20 items-center z-50 fixed top-0 left-0 w-full`}>
+            <div className={`bg-primary flex px-4 sm:px-10 justify-between h-20 items-center z-50 fixed top-0 left-0 w-full `}>
                 <div className="logo select-none">
                     <p className='text-secondary text-5xl font-bold'>KAMRUL.</p>
                 </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
             </div>
 
             {
-                phone && <div className='w-[100vw] h-[100vh] top-0 left-0 bg-[#000000c2] fixed z-50 transition-opacity duration-300 md:hidden'>
+                phone && <div className='w-[100vw] h-[100vh] top-0 left-0 bg-[#000000c2] fixed z-50 transition-opacity duration-300 md:hidden overflow-x-hidden'>
                     <div className='w-[70%] bg-primary right-0 top-0 h-screen fixed overscroll-y-none scroll-my-0'>
 
                         <div className="top flex justify-between items-center py-5 border-b border-slate-500 px-3">
@@ -89,7 +89,7 @@ const Navbar = () => {
 
                         <div className="hire mt-4 w-full px-4">
                             <button className='bg-secondary  rounded shadow text-sm btn font-bold w-full hover:ring-4 ring-green-400'>HIRE ME</button>
-                        </div> 
+                        </div>
 
 
                     </div>
