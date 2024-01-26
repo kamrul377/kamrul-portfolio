@@ -5,6 +5,9 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import Intro from './components/Intro'
 import Skills from './components/Skills'
+import Resume from './components/Resume'
+import Works from './components/Works.jsx'
+import Blog from './components/Blog.jsx'
 
 function App() {
 
@@ -18,6 +21,10 @@ function App() {
 
       <About />
       <Skills />
+
+      <Resume />
+      <Works />
+      <Blog />
 
 
 

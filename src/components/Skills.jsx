@@ -6,7 +6,7 @@ import Skillbar from '../utils/Skillbar'
 
 const Skills = () => {
     return (
-        <div className='bg-[#0f1a27] px-10'>
+        <div className='bg-[#0f1a27] px-10' id="skills">
 
             <Heading heading="My Skills" inner="skills" />
 
@@ -24,7 +24,7 @@ const Skills = () => {
                 <Skillbar number={80} name="typescript" />
                 <Skillbar number={95} name="React js" />
                 <Skillbar number={85} name="next js" />
-             
+
                 <Skillbar number={80} name="Node js" />
                 <Skillbar number={98} name="html & css" />
                 <Skillbar number={95} name="tailwind css" />

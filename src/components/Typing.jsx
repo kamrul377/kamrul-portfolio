@@ -8,7 +8,7 @@ const Typing = () => {
     const first = `Hi, I am Full-stack Developer`
 
     return (
-        <div className='bg-transparent h-24'>
+        <div className='bg-transparent h-24 px-4'>
             <TypeAnimation className=' text-secondary font-bold text-6xl'
                 preRenderFirstString={true}
                 sequence={[
