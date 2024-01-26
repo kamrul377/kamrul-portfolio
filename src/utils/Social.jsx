@@ -6,9 +6,9 @@ import { TbWorldWww } from "react-icons/tb";
 import { FaTwitter } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
-const Social = () => {
+const Social = ({className}) => {
     return (
-        <div className="icons flex gap-7 mt-7">
+        <div className={`icons flex gap-7 ${className}`}>
             <Link className="facebook p-3 bg-[#0f172a] rounded shadow border border-slate-800 text-white icn-dsn hover:text-black ">
                 <FaSquareFacebook size={25} className='hover:animate-pulse' />
             </Link>

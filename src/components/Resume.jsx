@@ -42,11 +42,11 @@ const Resume = () => {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="2019 - 2023"
-                    dateClassName='text-white'
+                    dateClassName='date'
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                     icon={<IoSchool />}
                 >
-                    <h3 className="vertical-timeline-element-title" style={{ 
+                    <h3 className="vertical-timeline-element-title" style={{
                         fontWeight: "bold"
                     }}>Diploma In Engineering</h3>
                     <h4 className="vertical-timeline-element-subtitle">Computer Science and Technology</h4>
@@ -57,7 +57,7 @@ const Resume = () => {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="2017 - 2019"
-                    dateClassName='text-white'
+                    dateClassName='date'
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                     icon={<IoSchool />}
                 >
@@ -70,7 +70,7 @@ const Resume = () => {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="2014 - 2016"
-                    dateClassName='text-white'
+                    dateClassName='date'
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                     icon={<IoSchool />}
                 >

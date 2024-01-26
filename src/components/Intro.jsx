@@ -22,7 +22,7 @@ const Intro = () => {
 
         <h1 className='text-[#fffffd] text-center text-md px-4'>I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.</h1>
 
-        <Social />
+        <Social className="mt-7" />
 
         <HashLink to="#about" className='flex bg-transparent items-center gap-3 rounded-full px-4 py-[1px] border text-slate-400 hover:text-secondary hover:border-slate-500 transition-colors border-slate-800 mt-10 text-sm'>
           Scroll Down <IoArrowDownOutline className='animate-bounce' size={22} />
