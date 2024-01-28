@@ -61,7 +61,7 @@ export const projects = [
   {
     id: 2,
     title: "Mortgage Calculator",
-    desc: "An E-commerce Applications",
+    desc: "Calculator to compare income souce and monthly debt payments",
     picture: 'images/mortgagecalc.png',
     github: "https://github.com/kamrul377/Mortgage_calculator",
     live: "https://mortgage-calculatorv2.vercel.app/"
@@ -71,8 +71,8 @@ export const projects = [
     title: "Sass Modern",
     desc: "PSD To React Design",
     picture: 'images/sass.png',
-    github: "https://github.com/kamrul377/Mortgage_calculator",
-    live: "https://mortgage-calculatorv2.vercel.app/"
+    github: "https://github.com/kamrul377/sass-modern",
+    live: "https://sass-modern.vercel.app/"
   },
 
   {
@@ -80,15 +80,15 @@ export const projects = [
     title: "IP Location",
     desc: "Ip to Location tracer",
     picture: 'images/ip.png',
-    github: "https://github.com/kamrul377/Mortgage_calculator",
-    live: "https://mortgage-calculatorv2.vercel.app/"
+    github: "https://github.com/kamrul377/ip-location",
+    live: "https://ip-location-v1.vercel.app/"
   },
   {
     id: 5,
     title: "Dashboard",
     desc: "User And sales Analytis",
     picture: 'images/dashboard.png',
-    github: "https://github.com/kamrul377/Mortgage_calculator",
-    live: "https://mortgage-calculatorv2.vercel.app/"
+    github: "https://github.com/kamrul377/admin-dashboard",
+    live: "https://user-sales-analysis.vercel.app/"
   },
 ]

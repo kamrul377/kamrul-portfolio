@@ -10,6 +10,7 @@ import Works from './components/Works'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import ModalComponent from './utils/Modal'
 
 function App() {
 
@@ -29,6 +30,9 @@ function App() {
       <Blog />
       <Contact />
       <Footer />
+
+  
+
 
 
 

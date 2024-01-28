@@ -10,6 +10,8 @@ const SingleProjects = ({ id, title, desc, picture, github, live }) => {
                     <img className='hover:scale-105 h-56 w-full object-cover duration-300 cursor-pointer rounded hover:blur-sm' src={picture} alt="project thumbnel" />
                 </div>
 
+              
+
                 {/* <div className="icon absolute top-0 left-6">
                     <IoArrowRedoOutline className='bg-secondary w-10 h-10 p-2 rounded-full text-[#222]' />
                 </div> */}

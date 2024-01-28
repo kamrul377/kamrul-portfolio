@@ -1,6 +1,8 @@
 import React from 'react'
 import Heading from '../utils/Heading'
 import BlogCard from './BlogCard'
+import Modal from '../utils/Modal'
+
 
 const Blog = () => {
     return (
@@ -19,6 +21,7 @@ const Blog = () => {
                 <iframe className='bg-transparent w-full h-full rounded border border-slate-700' src="https://lottie.host/embed/d51f8d2d-4824-4377-b487-fd8000c4fb23/dJSIl9dmsl.json"></iframe>
 
             </div>
+
 
         </div>
     )
