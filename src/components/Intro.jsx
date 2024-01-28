@@ -12,11 +12,12 @@ import { HashLink } from 'react-router-hash-link';
 
 const Intro = () => {
   return (
-    <div className='bg-primary h-[calc(100%)] flex justify-center items-center gap-3 pt-16 xl:pt-0' id="home">
+    <div className='bg-primary h-[calc(100%)] flex justify-center items-center gap-3 pt-16 xl:pt-0 relative' id="home">
 
       <div className="about max-w-[900px] mx-auto flex flex-col justify-center items-center gap-3">
         <img className='h-48 w-48 rounded-full ring-8 ring-secondary animate-none object-cover mb-10 mt-10 sm:mt-0' src={kamrul} alt="" />
 
+        <iframe className='opacity-50 absolute sm:top-32 top-16 sm:h-48 sm:w-48 -right-20 sm:right-10' src="https://lottie.host/embed/c4cc4460-876e-432f-b424-2b4396d3075b/mtaxKKAoiY.json"></iframe>
 
         <Typing />
 

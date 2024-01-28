@@ -115,8 +115,21 @@ button {
   transition: 0.2s ease-out;
 }
 
-button.active,
-button:hover {
-  background: black;
-  color: white;
+.project-img{ 
+  position: relative;
 }
+/* .s-project{ 
+  position: relative;
+}
+.s-project::before{ 
+content: "";
+width: 200%;
+height:200%; 
+background: blue;
+position: absolute;
+top: 0;
+left: 0;
+
+} */
+
+

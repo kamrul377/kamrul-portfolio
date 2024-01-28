@@ -44,7 +44,51 @@ export const data = {
 export const blogData = [
   {
     id: "1",
-    image: "https://tf-react-bieber.vercel.app/images/blog/blog-image-2.jpg", 
-    
+    image: "https://tf-react-bieber.vercel.app/images/blog/blog-image-2.jpg",
+
   }
+]
+
+export const projects = [
+  {
+    id: 1,
+    title: "E-Shop Online",
+    desc: "An E-commerce Applications",
+    picture: 'images/e-shop/products.png',
+    github: "https://github.com/kamrul377/E-commerce1",
+    live: "https://e-shop-online.vercel.app/"
+  },
+  {
+    id: 2,
+    title: "Mortgage Calculator",
+    desc: "An E-commerce Applications",
+    picture: 'images/mortgagecalc.png',
+    github: "https://github.com/kamrul377/Mortgage_calculator",
+    live: "https://mortgage-calculatorv2.vercel.app/"
+  },
+  {
+    id: 3,
+    title: "Sass Modern",
+    desc: "PSD To React Design",
+    picture: 'images/sass.png',
+    github: "https://github.com/kamrul377/Mortgage_calculator",
+    live: "https://mortgage-calculatorv2.vercel.app/"
+  },
+
+  {
+    id: 4,
+    title: "IP Location",
+    desc: "Ip to Location tracer",
+    picture: 'images/ip.png',
+    github: "https://github.com/kamrul377/Mortgage_calculator",
+    live: "https://mortgage-calculatorv2.vercel.app/"
+  },
+  {
+    id: 5,
+    title: "Dashboard",
+    desc: "User And sales Analytis",
+    picture: 'images/dashboard.png',
+    github: "https://github.com/kamrul377/Mortgage_calculator",
+    live: "https://mortgage-calculatorv2.vercel.app/"
+  },
 ]
