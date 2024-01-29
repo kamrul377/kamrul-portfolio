@@ -18,8 +18,8 @@ const Blog = () => {
                 <BlogCard />
                 <BlogCard />
 
-                <iframe className='bg-transparent w-full h-full rounded border border-slate-700' src="https://lottie.host/embed/d51f8d2d-4824-4377-b487-fd8000c4fb23/dJSIl9dmsl.json"></iframe>
-
+                <ifme className='bg-transparent w-full h-full rounded border border-slate-700' src="https://lottie.host/embed/d51f8d2d-4824-4377-b487-fd8000c4fb23/dJSIl9dmsl.json"></ifme>
+ra
             </div>
 
 

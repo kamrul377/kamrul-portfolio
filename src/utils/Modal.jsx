@@ -26,14 +26,15 @@ const ModalComponent = ({ showDetails, setShowDetails }) => {
                 <ModalCloseButton />
                 <ModalBody>
                     <Text fontWeight='bold' mb='1rem'>
-                        You can scroll the content behind the modal
+                        Update this section soon...
                     </Text>
-                    <img src="./images/ip.png" alt="" />
+                    <img className="w-full" src='https://images.pexels.com/photos/9963223/pexels-photo-9963223.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' alt="" />
+
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt sit animi nam officia veritatis cupiditate. Reprehenderit adipisci quos deleniti sed, modi ipsum eos nulla nesciunt harum nobis consequatur omnis illum perferendis repudiandae aspernatur dolorum sequi officiis voluptates mollitia maiores suscipit aut! Beatae incidunt animi provident? Repudiandae, ratione temporibus sit, cumque expedita ex enim deleniti placeat cupiditate adipisci perspiciatis, odit fuga doloremque? Sequi, iste qui delectus molestias, nulla rerum cupiditate error iusto, commodi accusamus porro reprehenderit perspiciatis mollitia in ipsa. Neque possimus totam, sequi explicabo incidunt a? Laudantium quidem repellat reprehenderit error, doloribus deleniti quasi similique, ea inventore necessitatibus corporis minima.</p>
                 </ModalBody>
 
                 <ModalFooter>
-                    <Button colorScheme='blue' mr={3} onClick={onClose}>
+                    <Button colorScheme='blue' mr={3} onClick={() => setShowDetails(false)}>
                         Close
                     </Button>
                     <Button variant='ghost'>Secondary Action</Button>
