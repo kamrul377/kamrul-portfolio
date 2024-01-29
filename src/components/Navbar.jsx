@@ -60,7 +60,7 @@ const Navbar = () => {
             </div>
 
             {
-                phone && <div className='w-[100vw] h-[100vh] top-0 left-0 bg-[#0000008c] fixed z-50  duration-300 md:hidden overflow-x-hidden transition-all '>
+                phone && <div className='w-full h-[100vh] top-0 left-0 bg-[#0000008c] fixed z-50  duration-300 md:hidden overflow-x-hidden transition-all overflow-hidden '>
                     <div className='w-[70%] bg-primary right-0 top-0 h-screen fixed overscroll-y-none scroll-my-0'>
 
                         <div className="top flex justify-between items-center py-5 border-b border-slate-500 px-3">

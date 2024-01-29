@@ -2,7 +2,7 @@ import React from 'react'
 
 const Heading = ({heading,inner}) => {
     return (
-        <div className='flex justify-center'>
+        <div className='flex justify-center overflow-hidden'>
             <div className="relative  inline-block">
                 <div className="inner-heading uppercase text-[100px] sm:text-[130px] text-center font-bold text-[#4345642f] select-none">
                     {inner}
