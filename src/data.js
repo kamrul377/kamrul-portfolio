@@ -52,6 +52,14 @@ export const blogData = [
 export const projects = [
   {
     id: 1,
+    title: "IP Subnet Calculator",
+    desc: "Calculate network information based on IP address and subnet mask",
+    picture: 'images/ipv.png',
+    github: "https://github.com/kamrul377/ip-subnetting",
+    live: "https://fnf-ipsubnet.vercel.app/"
+  },
+  {
+    id: 2,
     title: "E-Shop Online",
     desc: "An E-commerce Applications",
     picture: 'images/e-shop/products.png',
@@ -59,7 +67,7 @@ export const projects = [
     live: "https://e-shop-online.vercel.app/"
   },
   {
-    id: 2,
+    id: 3,
     title: "Mortgage Calculator",
     desc: "Calculator to compare income souce and monthly debt payments",
     picture: 'images/mortgagecalc.png',
@@ -67,7 +75,7 @@ export const projects = [
     live: "https://mortgage-calculatorv2.vercel.app/"
   },
   {
-    id: 3,
+    id: 4,
     title: "Sass Modern",
     desc: "PSD To React Design",
     picture: 'images/sass.png',
@@ -76,7 +84,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "IP Location",
     desc: "Ip to Location tracer",
     picture: 'images/ip.png',
@@ -84,7 +92,7 @@ export const projects = [
     live: "https://ip-location-v1.vercel.app/"
   },
   {
-    id: 5,
+    id: 6,
     title: "Dashboard",
     desc: "User And sales Analytis",
     picture: 'images/dashboard.png',

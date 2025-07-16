@@ -31,7 +31,7 @@ const Navbar = () => {
         <>
             <div className={`bg-primary flex px-4 sm:px-10 justify-between h-20 items-center z-50 fixed top-0 left-0 w-full `}>
                 <div className="logo select-none">
-                    <p className='text-secondary text-5xl font-bold'>KAMRUL.</p>
+                    <p className='text-secondary text-5xl font-bold'>KAM<span className='text-orange-400'>RU</span>L.</p>
                 </div>
                 <div className="menu hidden md:block">
                     <nav className='flex text-white gap-3 items-center justify-center text-[16px]'>
