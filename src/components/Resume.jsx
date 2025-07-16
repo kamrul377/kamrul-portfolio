@@ -24,7 +24,26 @@ const Resume = () => {
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="Feb 2024 - Continuing"
+                    date="Feb 2025 - Continuing"
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    icon={<MdOutlineWork />}
+                >
+                    <h3 className="vertical-timeline-element-title" style={{
+                        fontWeight: "bold"
+                    }}>Junior System Engineer</h3>
+                    {/* <h4 className="vertical-timeline-element-subtitle">Cisco Certified Network Associate (CCNA)</h4>
+                    <h4 className="vertical-timeline-element-subtitle">MikroTik Certified Network Associate (MTCNA)</h4> */}
+                    <h3 style={{
+                        color: "white"
+                    }}>
+                        First n Fast It Limited
+                    </h3>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                    date="Feb 2024 - Jan 2025"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon={<MdOutlineWork />}
                 >
@@ -33,15 +52,15 @@ const Resume = () => {
                     }}>Network Support Engineer</h3>
                     {/* <h4 className="vertical-timeline-element-subtitle">Cisco Certified Network Associate (CCNA)</h4>
                     <h4 className="vertical-timeline-element-subtitle">MikroTik Certified Network Associate (MTCNA)</h4> */}
-                    <h3 style={{ 
-                        color:"white"
+                    <h3 style={{
+                        color: "white"
                     }}>
-                       First n Fast It Limited
+                        First n Fast It Limited
                     </h3>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{  }}
+                    contentStyle={{}}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                     date="Sep 2023 - Dec 2023"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
