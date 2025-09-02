@@ -8,16 +8,16 @@ const Typing = () => {
     const first = `Hi, I am Full-stack Developer`
 
     return (
-        <div className='bg-transparent h-24 px-4'>
+        <div className='bg-transparent px-4 overflow-clip py-10 sm:py-2'>
             <TypeAnimation className=' text-secondary font-bold text-6xl'
                 preRenderFirstString={true}
                 sequence={[
                     500,
                     'Hi, I am Kamrul Islam', // initially rendered starting point
                     1000,
-                    'I am Web Designer',
+                    'I am Network and System Engineer...',
                     1000,
-                    'I am Full-stack Developer',
+                    'And Full Stack Web Developer...',
                     1000,
 
                 ]}

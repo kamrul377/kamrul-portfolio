@@ -1,5 +1,5 @@
 
-import { Modal, ModalContent, ModalBody, Text, useDisclosure, Button, ModalOverlay, ModalHeader, ModalCloseButton, ModalFooter } from "@chakra-ui/react"
+import { Modal, ModalContent, ModalBody, Text, useDisclosure, Button, ModalOverlay, ModalHeader, ModalCloseButton, ModalFooter, Kbd } from "@chakra-ui/react"
 import React from "react"
 
 const ModalComponent = ({ showDetails, setShowDetails }) => {
@@ -26,18 +26,18 @@ const ModalComponent = ({ showDetails, setShowDetails }) => {
                 <ModalCloseButton />
                 <ModalBody>
                     <Text fontWeight='bold' mb='1rem'>
-                        Update this section soon...
+                        Update coming soon...
                     </Text>
                     <img className="w-full" src='https://images.pexels.com/photos/9963223/pexels-photo-9963223.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load' alt="" />
 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt sit animi nam officia veritatis cupiditate. Reprehenderit adipisci quos deleniti sed, modi ipsum eos nulla nesciunt harum nobis consequatur omnis illum perferendis repudiandae aspernatur dolorum sequi officiis voluptates mollitia maiores suscipit aut! Beatae incidunt animi provident? Repudiandae, ratione temporibus sit, cumque expedita ex enim deleniti placeat cupiditate adipisci perspiciatis, odit fuga doloremque? Sequi, iste qui delectus molestias, nulla rerum cupiditate error iusto, commodi accusamus porro reprehenderit perspiciatis mollitia in ipsa. Neque possimus totam, sequi explicabo incidunt a? Laudantium quidem repellat reprehenderit error, doloribus deleniti quasi similique, ea inventore necessitatibus corporis minima.</p>
+                    <p>This is the blog section.I will update this section soon...</p>
                 </ModalBody>
 
                 <ModalFooter>
                     <Button colorScheme='blue' mr={3} onClick={() => setShowDetails(false)}>
                         Close
                     </Button>
-                    <Button variant='ghost'>Secondary Action</Button>
+                    <Button variant='ghost'> 2nd choice</Button>
                 </ModalFooter>
             </ModalContent>
         </Modal>

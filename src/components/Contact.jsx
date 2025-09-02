@@ -45,7 +45,7 @@ const Contact = () => {
                         </div>
                         <div className="text">
                             <h2 className='text-xl mb-2'>Contact address</h2>
-                            <p className='text-sm text-slate-300'>38no Middle Halishar,
+                            <p className='text-sm text-slate-300'>Middle Halishar,Port,
                                 Chittagong,Bangladesh</p>
 
                         </div>
@@ -64,11 +64,11 @@ const Contact = () => {
 
                         <div className="input flex flex-col w-full gap-2">
                             <label htmlFor="name" className='text-lg font-bold text-slate-200'>Name</label>
-                            <input className='bg-transparent border-slate-700 border px-5 py-3 rounded-lg text-lg text-slate-200 outline-none focus:border-secondary transition-colors' type="text" name="" placeholder='Enter your name...' id="" required/>
+                            <input className='bg-transparent border-slate-700 border px-5 py-3 rounded-lg text-lg text-slate-200 outline-none focus:border-secondary transition-colors' type="text" name="" placeholder='Enter your name...' id="" required />
                         </div>
                         <div className="input flex flex-col w-full gap-2">
                             <label htmlFor="name" className='text-lg font-bold text-slate-200'>Email</label>
-                            <input className='bg-transparent border-slate-700 border px-5 py-3 rounded-lg text-lg text-slate-200 outline-none focus:border-secondary transition-colors' type="email" name="" placeholder='Enter your email...' id="" required/>
+                            <input className='bg-transparent border-slate-700 border px-5 py-3 rounded-lg text-lg text-slate-200 outline-none focus:border-secondary transition-colors' type="email" name="" placeholder='Enter your email...' id="" required />
                         </div>
                         <div className="input flex flex-col w-full gap-2">
                             <label htmlFor="name" className='text-lg font-bold text-slate-200'>Subject</label>
@@ -76,7 +76,7 @@ const Contact = () => {
                         </div>
                         <div className="input flex flex-col w-full gap-2">
                             <label htmlFor="name" className='text-lg font-bold text-slate-200'>Message</label>
-                            <textarea row="5" className='bg-transparent border-slate-700 border px-5 py-3 rounded-lg text-lg text-slate-200 outline-none focus:border-secondary transition-colors' type="text" name="" placeholder='Enter your message...' id="" required/>
+                            <textarea row="5" className='bg-transparent border-slate-700 border px-5 py-3 rounded-lg text-lg text-slate-200 outline-none focus:border-secondary transition-colors' type="text" name="" placeholder='Enter your message...' id="" required />
                         </div>
 
                         <div className="hire mt-4 w-full">
